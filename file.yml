@@ -1,0 +1,7 @@
+---
+- hosts: 43.205.40.123
+  tasks:
+    - name: Create a file with "Hello, World!" content
+      copy:
+        content: "Hello, World!\n"
+        dest: /path/to/your/file.txt
