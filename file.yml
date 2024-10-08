@@ -4,4 +4,4 @@
     - name: Create a file with "Hello, World!" content
       copy:
         content: "Hello, World!\n"
-        dest: /path/to/your/file.txt
+        dest: /home/ubuntu/file.txt
